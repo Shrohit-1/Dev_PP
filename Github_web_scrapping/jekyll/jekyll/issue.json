@@ -1,0 +1,102 @@
+[
+    {
+        "Topic": "Changing a single page causes all the collections to rebuild",
+        "Link": "https://github.com/jekyll/jekyll/issues/8605"
+    },
+    {
+        "Topic": "docs: update markdown options to kramdown 2",
+        "Link": "https://github.com/jekyll/jekyll/issues/8593"
+    },
+    {
+        "Topic": "Creating text boxes with leader arrows in jekyll markdown",
+        "Link": "https://github.com/jekyll/jekyll/issues/8589"
+    },
+    {
+        "Topic": "Kramdown link_defs value parsed incorrectly by Jekyll",
+        "Link": "https://github.com/jekyll/jekyll/issues/8588"
+    },
+    {
+        "Topic": "Can't install Jekyll on Mac OS Big Sur (Apple Silicon M1)",
+        "Link": "https://github.com/jekyll/jekyll/issues/8576"
+    },
+    {
+        "Topic": "feat: add support for sass layouts",
+        "Link": "https://github.com/jekyll/jekyll/issues/8573"
+    },
+    {
+        "Topic": "docs: Ubuntu installation instructions corrupts existing last line of .bashrc",
+        "Link": "https://github.com/jekyll/jekyll/issues/8571"
+    },
+    {
+        "Topic": "@import CSS from SCSS",
+        "Link": "https://github.com/jekyll/jekyll/issues/8570"
+    },
+    {
+        "Topic": "collection.output sometimes empty - algorithm how items are processed (order) should be altered",
+        "Link": "https://github.com/jekyll/jekyll/issues/8565"
+    },
+    {
+        "Topic": "Update dependency constraint to allow for terminal-table v3.0.0",
+        "Link": "https://github.com/jekyll/jekyll/issues/8559"
+    },
+    {
+        "Topic": "jekyll netlify deploy error: jekyll 3.8.5 | Error:  No such file or directory @ rb_sysopen - /opt/build/repo/bin/gulp",
+        "Link": "https://github.com/jekyll/jekyll/issues/8557"
+    },
+    {
+        "Topic": "Jekyll::Site is reset twice",
+        "Link": "https://github.com/jekyll/jekyll/issues/8551"
+    },
+    {
+        "Topic": "LiveReload with ignore globs does not work",
+        "Link": "https://github.com/jekyll/jekyll/issues/8550"
+    },
+    {
+        "Topic": "bug: Files with same name but different paths get mixed together by Jekyll",
+        "Link": "https://github.com/jekyll/jekyll/issues/8549"
+    },
+    {
+        "Topic": "docs: run Ruby on M1 processors",
+        "Link": "https://github.com/jekyll/jekyll/issues/8548"
+    },
+    {
+        "Topic": "feat: Allow include/exclude config options to be specified as command line flags",
+        "Link": "https://github.com/jekyll/jekyll/issues/8545"
+    },
+    {
+        "Topic": "Parser was blocked due to document.write when using Livereload",
+        "Link": "https://github.com/jekyll/jekyll/issues/8544"
+    },
+    {
+        "Topic": "Update dependency constraint to allow for liquid v5.0.0",
+        "Link": "https://github.com/jekyll/jekyll/issues/8535"
+    },
+    {
+        "Topic": "Update dependency constraint to allow for tzinfo v2.0.4",
+        "Link": "https://github.com/jekyll/jekyll/issues/8516"
+    },
+    {
+        "Topic": "Unsupported cases for include and exclude in configuration.",
+        "Link": "https://github.com/jekyll/jekyll/issues/8505"
+    },
+    {
+        "Topic": "docs: Include mention of JEKYLL_LOG_LEVEL",
+        "Link": "https://github.com/jekyll/jekyll/issues/8480"
+    },
+    {
+        "Topic": "docs: inconsistent explanations of the effect of layout: none on pages",
+        "Link": "https://github.com/jekyll/jekyll/issues/8460"
+    },
+    {
+        "Topic": "Jekyll 3.9.0 test failure with ruby-rouge 3.23.0",
+        "Link": "https://github.com/jekyll/jekyll/issues/8436"
+    },
+    {
+        "Topic": "Highlighted code with line numbers renders as non-conforming HTML",
+        "Link": "https://github.com/jekyll/jekyll/issues/8411"
+    },
+    {
+        "Topic": "jekyll: bad interpreter: /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby: no such file or directory",
+        "Link": "https://github.com/jekyll/jekyll/issues/8395"
+    }
+]

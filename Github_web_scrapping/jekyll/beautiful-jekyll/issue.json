@@ -1,0 +1,50 @@
+[
+    {
+        "Topic": "Formatting change suggestion: Long strings not wrapping",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/787"
+    },
+    {
+        "Topic": "Feature suggestion: Blog post search bar",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/770"
+    },
+    {
+        "Topic": "$.Ajax not available in staticman.js",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/766"
+    },
+    {
+        "Topic": "Feature suggestion: Menu width based on the width of the longest word",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/765"
+    },
+    {
+        "Topic": "kramdown version error?",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/756"
+    },
+    {
+        "Topic": "Include Reddit in share options of posts",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/754"
+    },
+    {
+        "Topic": "Consider using SCSS instead of CSS",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/661"
+    },
+    {
+        "Topic": "Jekyll 4.1 Support",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/660"
+    },
+    {
+        "Topic": "Footer stick to the bottom when contents are short or absent",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/576"
+    },
+    {
+        "Topic": "[Proposal] Simplify css and js options?",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/518"
+    },
+    {
+        "Topic": "Update README for GitLab deployment",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/510"
+    },
+    {
+        "Topic": "Make all parameters that use file paths/URLs have consistent and correct logic",
+        "Link": "https://github.com/daattali/beautiful-jekyll/issues/254"
+    }
+]
