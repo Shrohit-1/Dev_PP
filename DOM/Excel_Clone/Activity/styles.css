@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.menu{
+    height: 30px;
+    display: flex;
+    background: #ecf0f1;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.menu-options{
+    height: 60px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+}
+.address-content{
+    height: 30px;
+    border: 1px solid;
+}
+.cellsContent{
+    height: calc( 100vh - 150px);
+    overflow: auto;
+    background-color: antiquewhite;
+    position: relative;
+}
+.row{
+    display: flex;
+}
+.cell{
+    border: 1px solid;
+    min-height: 30px;
+    min-width: 70px;
+    max-width: 70px;
+}
+.top-left-cell{
+    background-color: white;
+    height : 30px;
+    width : 30px;
+    border: 3px solid gray;
+    position: absolute;
+    z-index: 3;
+}
+.top-row{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    z-index: 2;
+    background-color: aqua;
+}
+.top-row-cell{
+    border: 1px solid;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-col{
+    background-color: aquamarine;
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    z-index: 2;
+}
+.left-col-cell{
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cells{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.sheets{
+    height: 30px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+}
+.add-sheet{
+    width: 40px;
+    height: 100%;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-sheet .fas{
+    color: rgb(9, 74, 15);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sheets-list{
+    display: flex;
+    height: 100%;
+}
+.sheet{
+    width: 80px;
+    height: 100%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.active-sheet{
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: white;
+}
+.file{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid black;
+}
+.home{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid black;
+}
+.active-menu{
+    background-color: white;
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
+.home-menu-options{
+    height: 100%;
+}
+.font-style{
+    display: flex;
+    width: 150px;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    
+}
+.font-style div{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.font-style div:hover{
+    color: lightgray;
+    opacity: 0.5;
+}
+.font-style div .fas{    
+     
+}
+.active-font-style{
+    background-color: lightgray;
+}
