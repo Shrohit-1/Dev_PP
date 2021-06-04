@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whiteboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tools-content">
+      <div class="tools">
+        <div class="tool" id="pencil"><img src="./NewIcons/pencil.svg" alt="p" />
+          <div class="tool-options hide">
+            <div class="pencil-size">
+              <input type="range" value="1" min="1" max="40">
+            </div>
+            <div class="pencil-color">
+              <div class="red"></div>
+              <div class="blue"></div>
+              <div class="yellow"></div>
+              <div class="green"></div>
+              <div class="black"></div>
+            </div>
+          </div>
+        </div>
+        <div class="tool" id="eraser"><img src="./NewIcons/Eraser.svg" alt="e" />
+          <div class="tool-options hide">
+            <div class="eraser-size">
+              <input type="range"  value="1" min="1" max="40">
+            </div>
+          </div>
+        </div>
+        <div class="tool" id="undo"><img src="./NewIcons/Undo.svg" alt="f" /></div>
+        <div class="tool" id="redo"><img src="./NewIcons/Redo.svg" alt="g" /></div>
+        <div class="tool" id="sticky"><img src="./NewIcons/sticky.svg" alt="g" /></div>
+        <div class="tool" id="photo"><img src="./NewIcons/Photo.svg" alt="j" /></div>
+        <div class="tool" id="download"><img src="./NewIcons/Download.svg" alt="k" /></div>
+      </div>
+    </div>
+    <div class="canvas-content">
+      <!-- <div class="sticky">
+        <div class="sticky-header">
+          <div id="minimize"><img src="./NewIcons/minimize.svg" alt=""></div>
+          <div id="close"><img src="./NewIcons/close.svg" alt=""></div>
+        </div>
+        <div class="sticky-content" contenteditable="true"></div>
+      </div> -->
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./tools.js"></script>
+    <script src="./undoredo.js"></script>
+    <script src="./sticky.js"></script>
+  </body>
+</html>

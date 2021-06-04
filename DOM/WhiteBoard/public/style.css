@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tools-content {
+    /* background: lightcyan; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    background-color: whitesmoke;
+    
+}
+
+.tools {
+    /* background: aliceblue; */
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+    background-color: whitesmoke;
+    /* border: 1px solid lightgray; */
+}
+
+.tool {
+    height: 80%;
+    width: 10%;
+    position: relative;
+}
+
+.tool-options{
+    height: 140px;
+    width: 140px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 49px;
+    left: -33px;
+    /* border-radius: 6px; */
+    border: 1px solid lightgrey;
+    border-top: none;
+}
+.pencil-size{
+    text-align: center;
+}
+
+.pencil-size input{
+    width: 90%;
+}
+
+.eraser-size{
+    text-align: center;
+}
+
+.eraser-size input{
+    width: 90%;
+}
+.pencil-color{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.red{
+    height: 20px;
+    width: 20px;
+    background: red;
+    border-radius: 6px;
+}
+.blue{
+    height: 20px;
+    width: 20px;
+    background:  blue;
+    border-radius: 6px;
+}
+.yellow{
+    height: 20px;
+    width: 20px;
+    background: yellow;
+    border-radius: 6px;
+}
+.green{
+    height: 20px;
+    width: 20px;
+    background: green;
+    border-radius: 6px;
+}
+.black{
+    height: 20px;
+    width: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+.tool img {
+    height: 100%;
+    width: 100%;
+}
+
+.canvas-content {
+    /* width: 100%; */
+    /* height: calc(100vh - 60px); */
+    overflow: hidden;
+}
+.hide{
+    display: none;
+}
+
+.sticky{
+
+height: 300px;
+
+width: 300px;
+
+display: flex;
+
+flex-direction: column;
+
+border-radius: 21px;
+
+position: absolute;
+
+top: 190px;
+
+left: 547px;
+}
+.sticky-header{
+
+height: 15%;
+
+width: 100%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: flex-end;
+
+grid-gap: 15px;
+
+background: rgb(77, 179, 208);
+
+border: 1px solid;
+
+padding: 5px;
+}
+.sticky-header img{
+    
+height: 80%;
+    
+width: 30px;
+}
+.sticky-content{
+
+height: 80%;
+
+border: 1px solid;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-top: none;
+outline: none;
+text-align: center;
+padding: 5px;
+font-size: 20px;
+background-color: whitesmoke;
+}
+
+ 
