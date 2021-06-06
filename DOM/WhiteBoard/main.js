@@ -13,7 +13,7 @@ function createWindow(){
     })
 
     mainWindow.loadFile("public/index.html").then(function(){
-        mainWindow.webContents.openDevTools();
+        //mainWindow.webContents.openDevTools();
         mainWindow.maximize();
     })
 }
