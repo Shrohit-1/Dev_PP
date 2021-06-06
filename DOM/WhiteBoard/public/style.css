@@ -114,15 +114,13 @@
 
 .sticky{
 
-height: 300px;
+height: 200px;
 
-width: 300px;
+width: 250px;
 
 display: flex;
 
 flex-direction: column;
-
-border-radius: 21px;
 
 position: absolute;
 
@@ -144,31 +142,39 @@ justify-content: flex-end;
 
 grid-gap: 15px;
 
-background: rgb(77, 179, 208);
+background: rgb(255, 208, 0);
 
 border: 1px solid;
 
 padding: 5px;
 }
-.sticky-header img{
+
+.sticky-header div{
     
-height: 80%;
+height: 100%;
     
 width: 30px;
 }
+.sticky-header div img{
+    
+    height: 100%;
+        
+    width: 100%;
+} 
 .sticky-content{
 
-height: 80%;
+height: 85%;
 
 border: 1px solid;
-border-bottom-right-radius: 5px;
-border-bottom-left-radius: 5px;
 border-top: none;
 outline: none;
 text-align: center;
-padding: 5px;
 font-size: 20px;
 background-color: whitesmoke;
 }
 
- 
+.sticky-content img{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
