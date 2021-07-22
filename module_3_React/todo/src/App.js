@@ -24,12 +24,22 @@ class App extends Component {
       todos: updatedTodo
     })
   }
+  addTodo =(todo)=>{
+    let updatedTodo=this.state.todos.map(function(Todo){
+      return Todo;
+    });
+    updatedTodo.push({ id: this.state.todos.length + 1, todo: todo });
+    this.setState({
+      todos:updatedTodo
+    })
+  };
   render() { 
     let todos = this.state.todos;
     let deleteTodo=this.deleteTodo;
+    let addTodo=this.addTodo;
     return ( 
       <div>
-        <InputBox></InputBox>
+        <InputBox addTodo={addTodo}></InputBox>
         <TodoList todos={todos} deleteTodo={deleteTodo}></TodoList>
       </div>
      );
